@@ -23,6 +23,8 @@ public class MyStringStackTest extends TestCase {
 	public void setUp() throws Exception {
 		s1 = "Hello";
 		s2 = "there";	
+		s1=null;
+		s2=null;
 	}
 
 	@After
